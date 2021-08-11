@@ -9,32 +9,34 @@
     <body>
 
         <!---- Header ---->
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a href="#" class="navbar-brand">Image Gallery Plus</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbar">
-                    <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link">Home</a>
-                        <a href="#" class="nav-item nav-link">About</a>
-                        <a href="#" class="nav-item nav-link">Contact</a>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <!---- Carousel slide ---->
-        <main>
-            <div id="carouselImg" class="carousel slide carouselImg" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselImg" data-slide-to="0"></li>
-                    <li data-target="#carouselImg" data-slide-to="1"></li>
-                    <li data-target="#carouselImg" data-slide-to="2"></li>
-                </ol>
-
+       
+                <header>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <a href="#" class="navbar-brand">Image Gallery Plus</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+        
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <div class="navbar-nav">
+                                <a href="#" class="nav-item nav-link">Home</a>
+                                <a href="#" class="nav-item nav-link">About</a>
+                                <a href="#" class="nav-item nav-link">Contact</a>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+        
+                <!---- Carousel slide ---->
+            <main>
+                <div id="carouselImg" class="carousel slide carouselImg" data-ride="carousel">
+        
+            <div class="carousel-indicators">
+                <button type="button" class="px-3 mx-4" data-target="#carouselImg" data-slide-to="0" class="active"></button>
+                <button type="button" class="px-3 mx-4"  data-target="#carouselImg" data-slide-to="1"></button>
+                <button type="button" class="px-3 mx-4" data-target="#carouselImg" data-slide-to="2"></button>
+          </div>
+            
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="img/house.jpg" class="d-block w-100"/>
